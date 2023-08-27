@@ -1,0 +1,57 @@
+body {
+    background: tan;
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    background-color: crimson;
+    color: white;
+    padding: 6px 10px;
+    margin: 20px auto;
+    border: 0;
+    margin: 20px 500px;
+}
+
+.popup-wrapper {
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.popup-container {
+    background-color: white;
+    position: relative;
+    text-align: center;
+    margin: 80px auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.closebtn {
+    position: absolute;
+    top: 6px;
+    right: 15px;
+    cursor: pointer;
+}
+
+img {
+    width: 250px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+a {
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px gray;
+}
